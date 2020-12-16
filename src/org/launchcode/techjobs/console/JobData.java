@@ -95,9 +95,9 @@ public class JobData {
             for(String val: job.values()){
                 if(val.toLowerCase().contains(value.toLowerCase())) {
                     jobs.add(job);
+                    break;
                 }
             }
-
         }
         return jobs;
     }
